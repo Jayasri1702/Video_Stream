@@ -1,0 +1,8 @@
+{
+  "/(browse)/[username]/page": "app/(browse)/[username]/page.js",
+  "/(dashboard)/u/[username]/(home)/page": "app/(dashboard)/u/[username]/(home)/page.js",
+  "/(dashboard)/u/[username]/chat/page": "app/(dashboard)/u/[username]/chat/page.js",
+  "/(dashboard)/u/[username]/community/page": "app/(dashboard)/u/[username]/community/page.js",
+  "/(dashboard)/u/[username]/keys/page": "app/(dashboard)/u/[username]/keys/page.js",
+  "/(browse)/(home)/page": "app/(browse)/(home)/page.js"
+}

@@ -1,0 +1,88 @@
+{
+  "pages": {
+    "/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
+    ],
+    "/(browse)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(browse)/layout.css",
+      "static/chunks/app/(browse)/layout.js"
+    ],
+    "/(browse)/(home)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(browse)/(home)/page.js"
+    ],
+    "/(auth)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(auth)/layout.css",
+      "static/chunks/app/(auth)/layout.js"
+    ],
+    "/(auth)/sign-in/[[...sign-in]]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(auth)/sign-in/[[...sign-in]]/page.js"
+    ],
+    "/(browse)/[username]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(browse)/[username]/page.js"
+    ],
+    "/(browse)/[username]/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(browse)/[username]/not-found.js"
+    ],
+    "/(browse)/[username]/error": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(browse)/[username]/error.js"
+    ],
+    "/(browse)/[username]/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(browse)/[username]/loading.js"
+    ],
+    "/(dashboard)/u/[username]/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/(dashboard)/u/[username]/layout.css",
+      "static/chunks/app/(dashboard)/u/[username]/layout.js"
+    ],
+    "/(dashboard)/u/[username]/(home)/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/u/[username]/(home)/loading.js"
+    ],
+    "/(dashboard)/u/[username]/(home)/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/u/[username]/(home)/page.js"
+    ],
+    "/(dashboard)/u/[username]/chat/loading": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/u/[username]/chat/loading.js"
+    ],
+    "/(dashboard)/u/[username]/chat/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/u/[username]/chat/page.js"
+    ],
+    "/(dashboard)/u/[username]/community/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/u/[username]/community/page.js"
+    ],
+    "/(dashboard)/u/[username]/keys/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(dashboard)/u/[username]/keys/page.js"
+    ]
+  }
+}
